@@ -30,7 +30,7 @@ or open html/index.html
 
 > localhost:3000/
 
-![](http://i.imgur.com/mUVdZen.png) ![](http://i.imgur.com/gs8FAJH.png)
+![](http://i.imgur.com/mUVdZen.png)
 
 > /response_page
 
