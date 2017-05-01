@@ -10,6 +10,14 @@ Install dependencies:
 
 > $ npm install
 
+> "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.7",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta.12",
+    "request": "^2.81.0"
+  }
+
 # Run
 
 Run DynamoDB:
