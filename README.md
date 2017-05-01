@@ -6,17 +6,19 @@ User is provided an HTML interface to perform tasks.
 
 # Setup
 
+Install dependencies:
+
 > $ npm install
 
 # Run
 
-Install dependencies:
-
-> $ node index.js
-
 Run DynamoDB:
 
 > $ dynamod
+
+Run index.js:
+
+> $ node index.js
 
 Access server at: 
 
