@@ -1,0 +1,29 @@
+html
+  body
+    form(action='http://127.0.0.1:3000/response_page', method='GET')
+      | http://
+      input(type='text', name='url')
+      |
+      input(type='submit', value='Submit Request')
+      br
+    form(action='http://127.0.0.1:3000/status', method='GET')
+      |
+      input#enteredjn(type='text', name='jobnum', placeholder='Job ID')
+      |
+      input(type='submit', value='Check Status')
+    t=jobnumstat
+    br
+    t=urlstat
+    br
+    t=status
+    br
+    br
+    t#output
+    |
+    input#outputToggle(type='button', value='View Result', onclick='viewOutput()')
+    br
+    br
+    t#HTMLoutput(style='visibility: hidden')
+      t#textsize(style='font-size:85%')
+        t=htmltext
+    script(src='../htmlHelp.js')

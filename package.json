@@ -1,0 +1,15 @@
+{
+  "name": "massdrop-internship-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Trisha Giron",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongoose": "^4.9.7",
+    "path": "^0.12.7",
+    "pug": "^2.0.0-beta.12",
+    "request": "^2.81.0"
+  }
+}
