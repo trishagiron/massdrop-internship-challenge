@@ -26,19 +26,20 @@ or open html/index.html
 
 # Use
 
-localhost:3000/
-![]({{site.baseurl}}/http://i.imgur.com/mUVdZen.png)
-![]({{site.baseurl}}/http://i.imgur.com/gs8FAJH.png)
+> localhost:3000/
 
-/response_page
-![]({{site.baseurl}}/http://i.imgur.com/NQECphO.png)
+![](http://i.imgur.com/mUVdZen.png) ![](http://i.imgur.com/gs8FAJH.png)
 
-/status
-![]({{site.baseurl}}/http://i.imgur.com/SSXZ66b.png)
-![]({{site.baseurl}}/http://i.imgur.com/FReBKiA.png)
+> /response_page
 
-(error messages)
-![]({{site.baseurl}}/http://i.imgur.com/0FAA3ey.png)
-![]({{site.baseurl}}/http://i.imgur.com/auOGglT.png)
+![](http://i.imgur.com/NQECphO.png)
+
+> /status
+
+![](http://i.imgur.com/SSXZ66b.png) ![](http://i.imgur.com/FReBKiA.png)
+
+> (error messages)
+
+![](http://i.imgur.com/0FAA3ey.png) ![](http://i.imgur.com/auOGglT.png)
 
 
