@@ -1,8 +1,14 @@
 # Massdrop Internship Challenge
 
-User is provided an HTML interface to perform tasks.
+Task:
 
-(Note: It was my first time learning, using, and applying much of the concepts and modules/methods given in the prompt and used in this project--so my implementations may not be the best!!)
+> Create a job queue whose workers fetch data from a URL and store the results in a database.  The job queue should expose a REST API >for adding jobs and checking their status / results.
+>
+>Example:
+>
+>User submits www.google.com to your endpoint.  The user gets back a job id. Your system fetches www.google.com (the result of which >would be HTML) and stores the result.  The user asks for the status of the job id and if the job is complete, he gets a response that >includes the HTML for www.google.com
+
+I implemented this so that the user is provided an HTML web interface to perform tasks. Requires MongoDB.
 
 # Setup
 
@@ -20,9 +26,9 @@ Install dependencies:
 
 # Run
 
-Run DynamoDB:
+Run MongoDB:
 
-> $ dynamod
+> $ mongod
 
 Run index.js:
 
